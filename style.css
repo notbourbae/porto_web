@@ -98,7 +98,7 @@ a {
   transition: color 0.3s ease;
 }
 
-.nav-link:hover, .nav-link.active {
+.nav-link:hover {
   color: var(--color-pink-bright);
   font-weight: 600;
 }
