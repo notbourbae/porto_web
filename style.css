@@ -1,6 +1,3 @@
-/* ==========================================
-   1. COLOR TOKENS & RESET
-   ========================================== */
 :root {
   --bg-dark: #08030f;
   --bg-surface: #10081e;
@@ -44,9 +41,6 @@ a {
   text-decoration: none;
 }
 
-/* ==========================================
-   2. HEADER / NAVBAR (RESPONSIF)
-   ========================================== */
 .site-header {
   position: fixed;
   top: 0;
@@ -121,7 +115,6 @@ a {
   box-shadow: 0 0 15px rgba(255, 42, 157, 0.3);
 }
 
-/* Tombol Hamburger Mobile */
 .nav-toggle {
   display: none;
   flex-direction: column;
@@ -142,7 +135,6 @@ a {
   transition: all 0.3s ease;
 }
 
-/* Animasi Tombol Hamburger ketika Aktif */
 .nav-toggle.active .hamburger-bar:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
 }
@@ -155,7 +147,6 @@ a {
   transform: translateY(-8px) rotate(-45deg);
 }
 
-/* Tampilan Mobile & Tablet Navigation */
 @media (max-width: 868px) {
   .nav-toggle {
     display: flex;
@@ -194,9 +185,6 @@ a {
   }
 }
 
-/* ==========================================
-   3. FLOATING SIDEBAR (LEFT)
-   ========================================== */
 .social-sidebar {
   position: fixed;
   left: 2rem;
@@ -234,9 +222,6 @@ a {
   .social-sidebar { display: none; }
 }
 
-/* ==========================================
-   4. HERO SECTION (KOMPATIBEL ALL DEVICES)
-   ========================================== */
 .hero-section {
   position: relative;
   width: 100%;
@@ -374,9 +359,6 @@ a {
   }
 }
 
-/* ==========================================
-   5. SECTIONS & BENTO CARDS
-   ========================================== */
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -510,9 +492,6 @@ a {
   font-size: 0.8rem;
 }
 
-/* ==========================================
-   6. TIMELINE (TRAJEKTORI)
-   ========================================== */
 .timeline {
   position: relative;
   padding-left: 1.5rem;
@@ -593,9 +572,6 @@ a {
   white-space: nowrap;
 }
 
-/* ==========================================
-   7. PROJECT CARDS
-   ========================================== */
 .project-card {
   border-radius: var(--radius-lg);
   background-color: var(--bg-card);
@@ -649,9 +625,6 @@ a {
   background-color: var(--color-pink-bright);
 }
 
-/* ==========================================
-   8. CONTACT GRID (TRANSMISI)
-   ========================================== */
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -766,9 +739,6 @@ a {
   color: #ffffff;
 }
 
-/* ==========================================
-   9. FOOTER
-   ========================================== */
 .site-footer {
   width: 100%;
   background-color: var(--bg-surface);
